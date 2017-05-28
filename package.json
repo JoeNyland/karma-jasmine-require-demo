@@ -1,0 +1,19 @@
+{
+  "name": "@joenyland/karma-jasmine-require-demo",
+  "version": "0.0.0",
+  "description": "Demonstrates how to run Jasmine tests under Karma using Require.js and running tests in Chrome, Firefox and PhantomJS",
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.3"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "author": "Joe Nyland <joenyland@me.com> (https://joenyland.github.io/)"
+}
